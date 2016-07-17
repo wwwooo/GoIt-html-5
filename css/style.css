@@ -1,0 +1,221 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+body {
+  height: 100vh;
+  background: url(../img/bg.jpg) no-repeat;
+  background-size: cover;
+  font-family: 'Helvetica Neue', Tahoma, sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 36px;
+  background: url(../img/bg-header.jpg);
+}
+
+.header-menu {
+  float: right;
+  list-style: none;
+}
+
+.header-menu li {
+  float: left;
+  line-height: 36px;
+}
+
+.header-menu a {
+  display: block;
+  padding: 0 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #60b5ed;
+}
+
+.header-menu a:hover {
+  background: #4eabda;
+  color: #fff;
+}
+
+.header-menu .vertical-line {
+  width: 1px;
+  height: 30px;
+  margin: 3px 1px 0;
+  padding: 0;
+  background: #4eabda;
+}
+
+.header-menu a.main-items {
+  font-weight: normal;
+  color: #fff;
+}
+
+.header-menu .offers:before {
+  content: '';
+  display: inline-block;
+  margin-right: 10px;
+  width: 25px;
+  height: 30px;
+  background: url(../img/flag.png) no-repeat;
+  vertical-align: bottom;
+}
+
+.header-menu a.main-items:hover {
+  background: linear-gradient(to top, #2e7ac4, #67c6e6);
+}
+
+.header-menu .underline {
+  text-decoration: underline;
+}
+
+form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 560px;
+  font-size: 14px;
+  color: #fff;
+}
+
+form .title-of-box {
+  margin-bottom: 2px;
+  padding: 19px 0;
+  font-size: 24px;
+  text-align: center;
+  background: rgba(0, 0, 0, .5);
+}
+
+form .box {
+  padding: 20px 0;
+  background: rgba(0, 0, 0, .5);
+}
+
+.btn-facebook {
+  margin: 0 auto;
+  width: 267px;
+  top: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-facebook .f {
+  float: left;
+  width: 38px;
+  height: 35px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  border-top: 1px solid #758ab9;
+  border-right: 1px solid #1d3c75;
+  background: #395499;
+  font-size: 27px;
+  text-align: center;
+}
+
+.btn-facebook .login {
+  float: left;
+  width: 229px;
+  height: 35px;
+  padding-top: 7px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top: 1px solid #758ab9;
+  border-left: 1px solid #758ab9;
+  background: #395499;
+  text-align: center;
+}
+
+.btn-facebook .login:after {
+  display: inline-block;
+  content: "";
+  margin-left: 25px;
+  width: 10px;
+  height: 10px;
+  background: url(../img/arrow.png) no-repeat;
+}
+
+.btn-facebook .font-normal {
+  font-weight: normal;
+}
+
+.box .ou {
+  display: block;
+  margin: 20px 0 20px;
+  text-align: center;
+  color: #999;
+}
+
+.box .ou:before,
+.box .ou:after {
+  display: inline-block;
+  content: "";
+  width: 119px;
+  height: 1px;
+  margin: 0 5px;
+  background: #000;
+  border-bottom: 1px solid #999;
+  vertical-align: middle;
+}
+
+form .input-block {
+  display: block;
+  margin: 0 auto 16px;
+  padding-left: 18px;
+  width: 267px;
+  height: 35px;
+  border: 0;
+  color: #fff;
+  border-bottom: 1px solid #999;
+  background: #000;
+}
+
+.box .input-block:focus {
+  outline: none;
+  -webkit-box-shadow: 0px 0px 6px 1px #689bcc;
+  -moz-box-shadow: 0px 0px 6px 1px #689bcc;
+  box-shadow: 0px 0px 6px 1px #689bcc;
+  background: #1b5288;
+}
+
+.chbx {
+  margin: 20px auto 25px;
+  width: 267px;
+}
+
+.chbx #choose {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+.chbx label {
+  vertical-align: middle;
+  color: #ccc;
+}
+
+.btn-create {
+  display: block;
+  margin: 20px auto;
+  width: 150px;
+  height: 38px;
+  border: 0;
+  border-radius: 3px;
+  background: linear-gradient(to top, #2e7ac4, #67c6e6);
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+}
+
+.box .tip {
+  font-size: 11px;
+  text-align: center;
+}
